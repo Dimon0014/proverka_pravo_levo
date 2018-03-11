@@ -682,7 +682,7 @@ for i in range(1100, 1286):  # while (ik < 1): # количество файло
                 propusk_prv = propusk_prv + 1
         # print(steps,'old:',old_key, ' key:',key1, '--- sam: ', same, ' lev: ', levo, ' prv: ', pravo, ' nol: ', nolik)
         old_key = key1
-        # print(steps,' sam_net ',propusk_sam ,' lev_net ', propusk_lev,' prv_net ',propusk_prv  )
+        print(steps,' sam_net ',propusk_sam ,' lev_net ', propusk_lev,' prv_net ',propusk_prv  )
     print('111111111111111111111111111111111111111111111111111111111111111111111111111111111')
 
     same_list.append(same)
