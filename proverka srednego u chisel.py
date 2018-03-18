@@ -534,7 +534,7 @@ pravo = 0
 levo = 0
 same = 0
 
-for i in range(222, 1356):  # while (ik < 1): # количество файлов
+for i in range(1000, 1100):  # while (ik < 1): # количество файлов
     # ik = ik + 1
     # file_obj = open('200cikl_ochh.txt', 'w')
     # file_obj.close()
@@ -577,8 +577,8 @@ for i in range(222, 1356):  # while (ik < 1): # количество файло�
         key1 = key
         steps = steps + 1
         if old_key > -1:
-            if ((old_key == 1) or (old_key == 4) or (old_key == 7) or (old_key == 10) or (old_key == 13) or (old_key == 16)or (old_key == 19)or (old_key == 22)or (old_key == 25)or (old_key == 28) or (old_key == 31) or (old_key == 34))\
-                    and ((key1 == 1) or (key1 == 4) or (key1 == 7) or (key1 == 10) or (key1 == 13) or (key1 == 16)or (key1 == 19) or (key1 == 22)or (key1 == 25)or (key1 == 28) or (key1 == 31) or (key1 == 34)):
+            if ((old_key == 0 ) or (old_key == 4) or (old_key == 7) or (old_key == 10) or (old_key == 13) or (old_key == 16)or (old_key == 19)or (old_key == 22)or (old_key == 25)or (old_key == 28) or (old_key == 31) or (old_key == 34))\
+                    and ((key1 == 0 ) or (key1 == 4) or (key1 == 7) or (key1 == 10) or (key1 == 13) or (key1 == 16)or (key1 == 19) or (key1 == 22)or (key1 == 25)or (key1 == 28) or (key1 == 31) or (key1 == 34)):
                 same = same+1
                 propusk_sam=0
 
@@ -594,7 +594,7 @@ for i in range(222, 1356):  # while (ik < 1): # количество файло�
                 # index_same = same/steps
                 # index_lev = levo/steps
                 # index_prv = pravo/steps
-            if ((old_key == 1) or (old_key == 4) or (old_key == 7) or (old_key == 10) or (old_key == 13) or (old_key == 16) or (old_key == 19) or (old_key == 22) or (old_key == 25) or (old_key == 28) or (old_key == 31) or (old_key == 34)) \
+            if ((old_key == 0 ) or (old_key == 4) or (old_key == 7) or (old_key == 10) or (old_key == 13) or (old_key == 16) or (old_key == 19) or (old_key == 22) or (old_key == 25) or (old_key == 28) or (old_key == 31) or (old_key == 34)) \
                         and ((key1 == 2) or (key1 == 5) or (key1 == 8) or (key1 == 11) or (key1 == 14) or(key1 == 17) or (key1 == 20)or (key1 == 23) or (key1 == 26) or (key1 == 29) or (key1 == 32) or (key1 == 35)):
                 pravo = pravo+1
                 propusk_prv = 0
@@ -606,7 +606,7 @@ for i in range(222, 1356):  # while (ik < 1): # количество файло�
                 # index_same = same / steps
                 # index_lev = levo / steps
                 # index_prv = pravo / steps
-            if ((old_key == 1) or (old_key == 4) or (old_key == 7) or (old_key == 10) or (old_key == 13) or (old_key == 16) or (old_key == 19) or (old_key == 22) or (old_key == 25) or (old_key == 28) or (old_key == 31) or (old_key == 34)) \
+            if ((old_key == 0 ) or (old_key == 4) or (old_key == 7) or (old_key == 10) or (old_key == 13) or (old_key == 16) or (old_key == 19) or (old_key == 22) or (old_key == 25) or (old_key == 28) or (old_key == 31) or (old_key == 34)) \
                         and ((key1 == 3) or (key1 == 6) or (key1 == 9) or (key1 == 12) or (key1 == 15) or (key1 == 18) or (key1 == 21)or (key1 == 24) or (key1 == 27) or (key1 == 30) or (key1 == 33) or (key1 == 36)):
                 levo = levo+1
                 propusk_lev = 0
@@ -647,7 +647,7 @@ for i in range(222, 1356):  # while (ik < 1): # количество файло�
                 # index_lev = levo / steps
                 # index_prv = pravo / steps
             if ((old_key == 2) or (old_key == 5) or (old_key == 8) or (old_key == 11) or (old_key == 14) or (old_key == 17) or (old_key == 20) or (old_key == 23) or (old_key == 26) or (old_key == 29) or (old_key == 32) or (old_key == 35)) \
-                    and ((key1 == 1) or (key1 == 4) or (key1 == 7) or (key1 == 10) or (key1 == 13) or (key1 == 16) or (key1 == 19) or (key1 == 22) or (key1 == 25) or (key1 == 28) or (key1 == 31) or (key1 == 34)):
+                    and ((key1 == 0 ) or (key1 == 4) or (key1 == 7) or (key1 == 10) or (key1 == 13) or (key1 == 16) or (key1 == 19) or (key1 == 22) or (key1 == 25) or (key1 == 28) or (key1 == 31) or (key1 == 34)):
                 levo = levo + 1
                 propusk_lev = 0
                 propusk_sam = propusk_sam + 1
@@ -676,7 +676,7 @@ for i in range(222, 1356):  # while (ik < 1): # количество файло�
                 # index_lev = levo / steps
                 # index_prv = pravo / steps
             if ((old_key == 3) or (old_key == 6) or (old_key == 9) or (old_key == 12) or (old_key == 15) or (old_key == 18) or (old_key == 21) or (old_key == 24) or (old_key == 27) or (old_key == 30) or (old_key == 33) or (old_key == 36)) \
-                    and ((key1 == 1) or (key1 == 4) or (key1 == 7) or (key1 == 10) or (key1 == 13) or (key1 == 16) or (key1 == 19) or (key1 == 22) or (key1 == 25) or (key1 == 28) or (key1 == 31) or (key1 == 34)):
+                    and ((key1 == 0 ) or (key1 == 4) or (key1 == 7) or (key1 == 10) or (key1 == 13) or (key1 == 16) or (key1 == 19) or (key1 == 22) or (key1 == 25) or (key1 == 28) or (key1 == 31) or (key1 == 34)):
                 pravo = pravo + 1
                 propusk_prv = 0
                 propusk_sam = propusk_sam + 1
@@ -701,7 +701,7 @@ for i in range(222, 1356):  # while (ik < 1): # количество файло�
                 # index_prv = pravo / steps
   #################################################################################################################
 
-            if ((old_key == 1) or (old_key == 4) or (old_key == 7) or (old_key == 10) or (old_key == 13) or (old_key == 16)or (old_key == 19)or (old_key == 22)or (old_key == 25)or (old_key == 28) or (old_key == 31) or (old_key == 34))\
+            if ((old_key == 0 ) or (old_key == 4) or (old_key == 7) or (old_key == 10) or (old_key == 13) or (old_key == 16)or (old_key == 19)or (old_key == 22)or (old_key == 25)or (old_key == 28) or (old_key == 31) or (old_key == 34))\
                     and (key1 == 0):
                 nolik = nolik+1
                 propusk_sam = propusk_sam + 1
@@ -722,7 +722,7 @@ for i in range(222, 1356):  # while (ik < 1): # количество файло�
                 # pribul_levo = pribul_levo - dobavka
 
             if ((old_key == 3) or (old_key == 6) or (old_key == 9) or (old_key == 12) or (old_key == 15) or (old_key == 18) or (old_key == 21) or (old_key == 24) or (old_key == 27) or (old_key == 30) or (old_key == 33) or (old_key == 36)) \
-                    and (key1 == 0):
+                    and (key1 == 1):
                 nolik = nolik + 1
                 propusk_sam = propusk_sam + 1
                 propusk_lev = propusk_lev + 1
@@ -731,7 +731,7 @@ for i in range(222, 1356):  # while (ik < 1): # количество файло�
                 # pribul_pravo = pribul_pravo - dobavka
                 # pribul_levo = pribul_levo - dobavka
 
-            if (old_key == 0) and (key1 == 0):
+            if (old_key == 1) and (key1 == 1):
                 dub_nolik = dub_nolik+1
                 propusk_sam = propusk_sam + 1
                 propusk_lev = propusk_lev + 1
