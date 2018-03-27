@@ -534,7 +534,7 @@ pravo = 0
 levo = 0
 same = 0
 
-for i in range(1000, 1200):  # while (ik < 1): # количество файлов
+for i in range(1106, 1230):  # while (ik < 1): # количество файлов
     # ik = ik + 1
     # file_obj = open('200cikl_ochh.txt', 'w')
     # file_obj.close()
@@ -739,10 +739,40 @@ for i in range(1000, 1200):  # while (ik < 1): # количество файло
                 # pribul_povtora = pribul_povtora - dobavka
                 # pribul_pravo = pribul_pravo - dobavka
                 # pribul_levo = pribul_levo - dobavka
+        # print(steps, ' sam: ', same, ' lev: ', levo , ' prv: ', pravo)
+        if (same == levo) and (levo == pravo):
+            print(steps,' sam_: ',0 ) #, ' lev_: ', 0,' prv_: ', 0
+        
+        elif (same == levo) and (levo > pravo)  : # sam and levo - самые большые; pravo - самое маленькое
+            print(steps,' sam_: ',same - pravo)#, ' lev_: ', levo - pravo,' prv_: ', 0
+        elif (same == levo) and (levo < pravo) :  # sam and levo - самые маленькие; pravo - самое большое
+            print(steps,' sam_: ',same - pravo) #, ' lev_: ', pravo - levo,' prv_: ', 0
+        
+        elif (same == pravo) and (levo < pravo):  # sam and pravo - самые большые; levo - самое маленькое
+            print(steps, ' sam_: ', same - levo)
+        elif (same == pravo) and (levo > pravo):  # sam and pravo - самые маленькие; levo - самое большое
+            print(steps, ' sam_: ', same - levo)
 
+
+        elif (same> levo) and (levo > pravo): # самое маленькое право, mid - лево, sam -сам большое
+            print(steps,' sam_: ',same - pravo )
+        elif (same> pravo) and (pravo > levo): # самое маленькое лево, mid - право, sam -сам большое
+            print(steps,' sam_: ',same - levo)
+        
+        elif (levo>same ) and (same > pravo): # самое маленькое право, mid - sam, лево -сам большое
+            print(steps,' sam_: ',same - levo)
+        elif (pravo > same) and (same > levo): # самое маленькое лево, mid - sam, право -сам большое
+            print(steps,' sam_: ',same - pravo)
+        
+        elif (levo > pravo) and (pravo > same): # самое маленькое sam, mid - право, лево -сам большое
+            print(steps,' sam_: ',same - levo)
+        elif (pravo > levo) and (levo > same): # самое маленькое sam, mid - лево, право -сам большое
+            print(steps,' sam_: ',same - pravo)
+        
+        
         # print(steps,'old:',old_key, ' key:',key1, '--- sam: ', same, ' lev: ', levo, ' prv: ', pravo, ' nol: ', nolik)
         old_key = key1
-        print(steps,' sam_net ',propusk_sam ,' lev_net ', propusk_lev,' prv_net ',propusk_prv  )
+        # print(steps,' sam_net ',propusk_sam ,' lev_net ', propusk_lev,' prv_net ',propusk_prv  )
     print('111111111111111111111111111111111111111111111111111111111111111111111111111111111')
 
     same_list.append(same)
