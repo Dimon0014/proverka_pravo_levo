@@ -533,7 +533,7 @@ pribul_levo =0
 pravo = 0
 levo = 0
 same = 0
-
+globaln_shagi =0
 for i in range(1200, 1300):  # while (ik < 1): # количество файлов
     # ik = ik + 1
     # file_obj = open('200cikl_ochh.txt', 'w')
@@ -576,6 +576,7 @@ for i in range(1200, 1300):  # while (ik < 1): # количество файло
 
         key1 = key
         steps = steps + 1
+        globaln_shagi = globaln_shagi+1
         if old_key > -1:
             if ((old_key == 1) or (old_key == 4) or (old_key == 7) or (old_key == 10) or (old_key == 13) or (old_key == 16)or (old_key == 19)or (old_key == 22)or (old_key == 25)or (old_key == 28) or (old_key == 31) or (old_key == 34))\
                     and ((key1 == 1) or (key1 == 4) or (key1 == 7) or (key1 == 10) or (key1 == 13) or (key1 == 16)or (key1 == 19) or (key1 == 22)or (key1 == 25)or (key1 == 28) or (key1 == 31) or (key1 == 34)):
