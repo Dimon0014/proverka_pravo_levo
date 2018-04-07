@@ -380,11 +380,11 @@ def podchet_simv(slist):  # подсчет сколько раз встреча�
 def podchet_balansa(spisok):
     pribyl = 0
     for item in spisok:
-        if item == 1:
+        if item == 1 :
             pribyl = pribyl + 0.35  # - (item*0.01)
-        if item == 2:
+        if item == 2 :
             pribyl = pribyl + 0.34  # - (item*0.01)
-        if item == 3:
+        if item == 3 :
             pribyl = pribyl + 0.33  # - (item*0.01)
 
         if item == 4:
@@ -504,8 +504,192 @@ def podchet_balansa(spisok):
         # if (item > 115) and (item < 119):
         #     pribyl = pribyl + 0.35 * 15 - (item * 0.01) * 15
         if item == 37:
-            pribyl = pribyl - 0.81
+            pribyl = pribyl -0.81
     return pribyl
+
+
+def podchet_balansa2(spisok):
+    pribyl = 0
+    for item in spisok:
+        if item == 1:
+            pribyl = pribyl + 0.35  # - (item*0.01)
+        if item == 2:
+            pribyl = pribyl + 0.34  # - (item*0.01)
+        if item == 3:
+            pribyl = pribyl + 0.33  # - (item*0.01)
+
+        if item == 4:
+            pribyl = pribyl + 0.32  # - (item*0.01)
+
+        if item == 5:
+            pribyl = pribyl + 0.31  # - (item*0.01)
+
+        if item == 6:
+            pribyl = pribyl + 0.30  # - (item*0.01)
+        ########################################################## +0.06
+        if item == 7:
+            pribyl = pribyl + 0.29  # - (item*0.01)
+
+        if item == 8:
+            pribyl = pribyl + 0.28  # - (item*0.01)
+        if item == 9:
+            pribyl = pribyl + 0.27  # - (item*0.01)
+        if item == 10:
+            pribyl = pribyl + 0.26  # - (item*0.01)
+        if item == 11:
+            pribyl = pribyl + 0.25  # - (item*0.01)
+        if item == 11:
+            pribyl = pribyl + 0.24  # - (item*0.01)
+        if item == 12:
+            pribyl = pribyl + 0.23  # - (item*0.01)
+        if item == 13:
+            pribyl = pribyl + 0.22  # - (item*0.01)
+        if item == 14:
+            pribyl = pribyl + 0.21  # - (item*0.01)
+        if item == 15:
+            pribyl = pribyl + 0.20  # - (item*0.01)
+        if item == 16:
+            pribyl = pribyl + 0.19  # - (item*0.01)
+        if item == 17:
+            pribyl = pribyl + 0.18  # - (item*0.01)
+        if item == 18:
+            pribyl = pribyl + 0.17  # - (item*0.01)
+        if item == 19:
+            pribyl = pribyl + 0.16  # - (item*0.01)
+        if item == 20:
+            pribyl = pribyl + 0.15  # - (item*0.01)
+        if item == 21:
+            pribyl = pribyl + 0.14  # - (item*0.01)
+        if item == 22:
+            pribyl = pribyl + 0.13  # - (item*0.01)
+        if item == 23:
+            pribyl = pribyl + 0.12  # - (item*0.01)
+        ###########################################################      +0.36 =0.42
+        if item == 24:
+            pribyl = pribyl + 0.11  # - (item*0.01)
+
+        if item == 25:
+            pribyl = pribyl + 0.10  # - (item*0.01)
+        if item == 26:
+            pribyl = pribyl + 0.09  # - (item*0.01)
+        if item == 27:
+            pribyl = pribyl + 0.08  # - (item*0.01)
+        if item == 28:
+            pribyl = pribyl + 0.07  # - (item*0.01)
+        if item == 29:
+            pribyl = pribyl + 0.06  # - (item*0.01)
+        if item == 30:
+            pribyl = pribyl + 0.05  # - (item*0.01)
+        if item == 31:
+            pribyl = pribyl + 0.04  # - (item*0.01)
+        if item == 32:
+            pribyl = pribyl + 0.03  # - (item*0.01)
+        if item == 33:
+            pribyl = pribyl + 0.02  # - (item*0.01)
+        if item == 34:
+            pribyl = pribyl + 0.01  # - (item*0.01)
+        if item == 35:
+            pribyl = pribyl + 0.0  # - (item*0.01)
+        if item == 36:
+            pribyl = pribyl - 0.01  # - (item*0.01)
+        if item > 36:
+            pribyl = pribyl - 0.36  # - (item*0.01)
+
+    return pribyl
+
+
+def podchet_balansa2(spisok):
+    pribyl = 0
+    for item in spisok:
+        if item == 0:
+            pribyl = pribyl + 0.35  # - (item*0.01)
+        if item == 1:
+            pribyl = pribyl + 0.69  # - (item*0.01)
+        if item == 2:
+            pribyl = pribyl + 1.02  # - (item*0.01)
+        if item == 3:
+            pribyl = pribyl + 1.36  # - (item*0.01)
+
+        if item == 4:
+            pribyl = pribyl + 1.65  # - (item*0.01)
+
+        if item == 5:
+            pribyl = pribyl + 1.95  # - (item*0.01)
+
+        # if item == 6:
+        #     pribyl = pribyl + 2.24  # - (item*0.01)
+        # ########################################################## +0.06
+        # if item == 7:
+        #     pribyl = pribyl + 2.56  # - (item*0.01)
+
+        if item > 5:
+            pribyl = pribyl - 0.21  # - (item*0.01)
+        # if item == 9:
+        #     pribyl = pribyl + 0.27  # - (item*0.01)
+        # if item == 10:
+        #     pribyl = pribyl + 0.26  # - (item*0.01)
+        # if item == 11:
+        #     pribyl = pribyl + 0.25  # - (item*0.01)
+        # if item == 11:
+        #     pribyl = pribyl + 0.24  # - (item*0.01)
+        # if item == 12:
+        #     pribyl = pribyl + 0.23  # - (item*0.01)
+        # if item == 13:
+        #     pribyl = pribyl + 0.22  # - (item*0.01)
+        # if item == 14:
+        #     pribyl = pribyl + 0.21  # - (item*0.01)
+        # if item == 15:
+        #     pribyl = pribyl + 0.20  # - (item*0.01)
+        # if item == 16:
+        #     pribyl = pribyl + 0.19  # - (item*0.01)
+        # if item == 17:
+        #     pribyl = pribyl + 0.18  # - (item*0.01)
+        # if item == 18:
+        #     pribyl = pribyl + 0.17  # - (item*0.01)
+        # if item == 19:
+        #     pribyl = pribyl + 0.16  # - (item*0.01)
+        # if item == 20:
+        #     pribyl = pribyl + 0.15  # - (item*0.01)
+        # if item == 21:
+        #     pribyl = pribyl + 0.14  # - (item*0.01)
+        # if item == 22:
+        #     pribyl = pribyl + 0.13  # - (item*0.01)
+        # if item == 23:
+        #     pribyl = pribyl + 0.12  # - (item*0.01)
+        # ###########################################################      +0.36 =0.42
+        # if item == 24:
+        #     pribyl = pribyl + 0.11  # - (item*0.01)
+        #
+        # if item == 25:
+        #     pribyl = pribyl + 0.10  # - (item*0.01)
+        # if item == 26:
+        #     pribyl = pribyl + 0.09  # - (item*0.01)
+        # if item == 27:
+        #     pribyl = pribyl + 0.08  # - (item*0.01)
+        # if item == 28:
+        #     pribyl = pribyl + 0.07  # - (item*0.01)
+        # if item == 29:
+        #     pribyl = pribyl + 0.06  # - (item*0.01)
+        # if item == 30:
+        #     pribyl = pribyl + 0.05  # - (item*0.01)
+        # if item == 31:
+        #     pribyl = pribyl + 0.04  # - (item*0.01)
+        # if item == 32:
+        #     pribyl = pribyl + 0.03  # - (item*0.01)
+        # if item == 33:
+        #     pribyl = pribyl + 0.02  # - (item*0.01)
+        # if item == 34:
+        #     pribyl = pribyl + 0.01  # - (item*0.01)
+        # if item == 35:
+        #     pribyl = pribyl + 0.0  # - (item*0.01)
+        # if item == 36:
+        #     pribyl = pribyl - 0.01  # - (item*0.01)
+        # if item > 36:
+        #     pribyl = pribyl - 0.36  # - (item*0.01)
+
+    return pribyl
+
+
 def get_counts(sequence):
     counts = {}
     for item in sequence:
@@ -529,16 +713,27 @@ i = 0
 next_nol = 0
 uchet_intervala = 0
 
-nolik = 0
-dub_nolik = 0
-same_list = []
-lev_list = []
+nolik =0
+dub_nolik =0
+same_list_interv =[]
+lev_list_interv =[]
+prav_list_interv = []
+same_list =[]
+lev_list =[]
 prav_list = []
+pribul_povtora=0
+pribul_pravo =0
+pribul_levo =0
 pravo = 0
 levo = 0
 same = 0
-pribul=0
-for i in range(222, 1507):  # while (ik < 1): # количество файлов
+globaln_shagi =0
+schet_propuskov =0
+schet_propuskov_list=[]
+list_intrevalov_cikla =[]
+schetchik_cikla =0
+schet_intervalov_cikla =0
+for i in range(222, 1509):  # while (ik < 1): # количество файлов
     # ik = ik + 1
     # file_obj = open('200cikl_ochh.txt', 'w')
     # file_obj.close()
@@ -563,197 +758,238 @@ for i in range(222, 1507):  # while (ik < 1): # количество файло�
     steps_sesia = 1
     key1 = key
     steps = 0
-    old_key = -1
+    old_key =-1
     # print("выборка",len(viborka))
     chet = 0
     nechet = 0
     index_same = 0
     index_lev = 0
     index_prv = 0
+    old_propusk_sam = 0
+    old_propusk_lev = 0
+    old_propusk_prv = 0
     propusk_sam = 0
-    propusk_sam2 =0
     propusk_lev = 0
-
     propusk_prv = 0
-    propusk_prv2 = 0
-    konec = False
+    dobavka = 1
+    bufer_schetchik_cikla =0
+    list_for_sravni = []
     while (steps < len(viborka)):
         key = viborka[steps]
 
         key1 = key
+
         steps = steps + 1
+        if steps < 8 :
+            list_for_sravni.append(key1)
+        globaln_shagi = globaln_shagi+1
+
+        if schetchik_cikla == 8:
+            schetchik_cikla = 0
+        if steps>7:
+           if key1  == list_for_sravni[ schetchik_cikla -1]:
+              bufer_schetchik_cikla = -1
+            # schetchik_cikla= -1
+            # print('      zahod')
+
+           else:
+              schet_intervalov_cikla = schet_intervalov_cikla+1
+
+        if bufer_schetchik_cikla ==-1:
+            list_intrevalov_cikla.append(schet_intervalov_cikla)
+            schet_intervalov_cikla =0
+            bufer_schetchik_cikla =0
+            print('----------------===============+++++++++++++++++++++++++++++ zahod')
+
         if old_key > -1:
-            if ((old_key == 1) or (old_key == 2) or (old_key == 3) or (old_key == 4) or (old_key == 5) or (
-                old_key == 6) or (old_key == 7) or (old_key == 8) or (old_key == 9) or (old_key == 10) or (
-                old_key == 11) or (old_key == 12)) \
-                    and ((key1 == 1) or (key1 == 2) or (key1 == 3) or (key1 == 4) or (key1 == 5) or (key1 == 6) or (
-                        key1 == 7) or (key1 == 8) or (key1 == 9) or (key1 == 10) or (key1 == 11) or (key1 == 12)):
-                same = same + 1
-                # propusk_sam = 0
-                propusk_sam = propusk_sam + 2
-                propusk_lev = propusk_lev - 1
-                propusk_prv = propusk_prv - 1
+            if ((old_key == 1) or (old_key == 4) or (old_key == 7) or (old_key == 10) or (old_key == 13) or (old_key == 16)or (old_key == 19)or (old_key == 22)or (old_key == 25)or (old_key == 28) or (old_key == 31) or (old_key == 34))\
+                    and ((key1 == 1) or (key1 == 4) or (key1 == 7) or (key1 == 10) or (key1 == 13) or (key1 == 16)or (key1 == 19) or (key1 == 22)or (key1 == 25)or (key1 == 28) or (key1 == 31) or (key1 == 34)):
+                same = same+1
+                propusk_sam=0
+
+                propusk_lev=propusk_lev-1
+                propusk_prv=propusk_prv-1
+                pribul_povtora = pribul_povtora + dobavka * 2
+                pribul_pravo = pribul_pravo - dobavka
+                pribul_levo = pribul_levo - dobavka
+                if pribul_povtora<0:
+                  dobavka = dobavka + 1
+                else:
+                    dobavka = 1
                 # index_same = same/steps
                 # index_lev = levo/steps
                 # index_prv = pravo/steps
-            if ((old_key == 1) or (old_key == 2) or (old_key == 3) or (old_key == 4) or (old_key == 5) or (
-                old_key == 6) or (old_key == 7) or (old_key == 8) or (old_key == 9) or (old_key == 10) or (
-                old_key == 11) or (old_key == 12)) \
-                    and ((key1 == 13) or (key1 == 14) or (key1 == 15) or (key1 == 16) or (key1 == 17) or (
-                        key1 == 18) or (key1 == 19) or (key1 == 20) or (key1 == 21) or (key1 == 22) or (key1 == 23) or (
-                        key1 == 24)):
-                pravo = pravo + 1
-                # propusk_prv = 0
-                propusk_prv = propusk_prv + 2
+            if ((old_key == 1) or (old_key == 4) or (old_key == 7) or (old_key == 10) or (old_key == 13) or (old_key == 16) or (old_key == 19) or (old_key == 22) or (old_key == 25) or (old_key == 28) or (old_key == 31) or (old_key == 34)) \
+                        and ((key1 == 2) or (key1 == 5) or (key1 == 8) or (key1 == 11) or (key1 == 14) or(key1 == 17) or (key1 == 20)or (key1 == 23) or (key1 == 26) or (key1 == 29) or (key1 == 32) or (key1 == 35)):
+                pravo = pravo+1
+                propusk_prv = 0
                 propusk_sam = propusk_sam - 1
                 propusk_lev = propusk_lev - 1
 
+                pribul_povtora = pribul_povtora - dobavka
+                pribul_pravo = pribul_pravo + dobavka * 2
+                pribul_levo = pribul_levo - dobavka
                 # index_same = same / steps
                 # index_lev = levo / steps
                 # index_prv = pravo / steps
-            if ((old_key == 1) or (old_key == 2) or (old_key == 3) or (old_key == 4) or (old_key == 5) or (
-                old_key == 6) or (old_key == 7) or (old_key == 8) or (old_key == 9) or (old_key == 10) or (
-                old_key == 11) or (old_key == 12)) \
-                    and ((key1 == 25) or (key1 == 26) or (key1 == 27) or (key1 == 28) or (key1 == 29) or (
-                        key1 == 30) or (key1 == 31) or (key1 == 32) or (key1 == 33) or (key1 == 34) or (key1 == 35) or (
-                        key1 == 36)):
-                levo = levo + 1
-                # propusk_lev = 0
-                propusk_lev = propusk_lev + 2
+            if ((old_key == 1) or (old_key == 4) or (old_key == 7) or (old_key == 10) or (old_key == 13) or (old_key == 16) or (old_key == 19) or (old_key == 22) or (old_key == 25) or (old_key == 28) or (old_key == 31) or (old_key == 34)) \
+                        and ((key1 == 3) or (key1 == 6) or (key1 == 9) or (key1 == 12) or (key1 == 15) or (key1 == 18) or (key1 == 21)or (key1 == 24) or (key1 == 27) or (key1 == 30) or (key1 == 33) or (key1 == 36)):
+                levo = levo+1
+                propusk_lev = 0
                 propusk_sam = propusk_sam - 1
                 propusk_prv = propusk_prv - 1
+                pribul_povtora = pribul_povtora - dobavka
+                pribul_pravo = pribul_pravo - dobavka
+                pribul_levo = pribul_levo + dobavka * 2
                 # index_same = same / steps
                 # index_lev = levo / steps
                 # index_prv = pravo / steps
-            if ((old_key == 13) or (old_key == 14) or (old_key == 15) or (old_key == 16) or (old_key == 17) or (
-                old_key == 18) or (old_key == 19) or (old_key == 20) or (old_key == 21) or (old_key == 22) or (
-                old_key == 23) or (old_key == 24)) \
-                    and ((key1 == 13) or (key1 == 14) or (key1 == 15) or (key1 == 16) or (key1 == 17) or (
-                        key1 == 18) or (key1 == 19) or (key1 == 20) or (key1 == 21) or (key1 == 22) or (key1 == 23) or (
-                        key1 == 24)):
+            if ((old_key == 2) or (old_key == 5) or (old_key == 8) or (old_key == 11) or (old_key == 14) or (old_key == 17) or (old_key == 20) or (old_key == 23) or (old_key == 26) or (old_key == 29) or (old_key == 32) or (old_key == 35)) \
+                        and ((key1 == 2) or (key1 == 5) or (key1 == 8) or (key1 == 11) or (key1 == 14) or(key1 == 17) or (key1 == 20)or (key1 == 23) or (key1 == 26) or (key1 == 29) or (key1 == 32) or (key1 == 35)):
                 same = same + 1
-                # propusk_sam = 0
-                propusk_sam = propusk_sam + 2
+                propusk_sam = 0
                 propusk_lev = propusk_lev - 1
                 propusk_prv = propusk_prv - 1
+                pribul_povtora = pribul_povtora + dobavka * 2
+                pribul_pravo = pribul_pravo - dobavka
+                pribul_levo = pribul_levo - dobavka
+                if pribul_povtora<0:
+                  dobavka = dobavka + 1
+                else:
+                    dobavka = 1
                 # index_same = same / steps
                 # index_lev = levo / steps
                 # index_prv = pravo / steps
-            if ((old_key == 13) or (old_key == 14) or (old_key == 15) or (old_key == 16) or (old_key == 17) or (
-                old_key == 18) or (old_key == 19) or (old_key == 20) or (old_key == 21) or (old_key == 22) or (
-                old_key == 23) or (old_key == 24)) \
-                    and ((key1 == 25) or (key1 == 26) or (key1 == 27) or (key1 == 28) or (key1 == 29) or (
-                        key1 == 30) or (key1 == 31) or (key1 == 32) or (key1 == 33) or (key1 == 34) or (key1 == 35) or (
-                        key1 == 36)):
+            if ((old_key == 2) or (old_key == 5) or (old_key == 8) or (old_key == 11) or (old_key == 14)or (old_key == 17)or (old_key == 20) or (old_key == 23) or (old_key == 26) or (old_key == 29) or (old_key == 32) or (old_key == 35)) \
+                    and ((key1 == 3) or (key1 == 6) or (key1 == 9) or (key1 == 12) or (key1 == 15) or (key1 == 18) or (key1 == 21) or (key1 == 24) or (key1 == 27) or (key1 == 30) or (key1 == 33) or (key1 == 36)):
                 pravo = pravo + 1
-                # propusk_prv = 0
-                propusk_prv = propusk_prv + 2
+                propusk_prv = 0
                 propusk_sam = propusk_sam - 1
                 propusk_lev = propusk_lev - 1
+                pribul_povtora = pribul_povtora - dobavka
+                pribul_pravo = pribul_pravo + dobavka * 2
+                pribul_levo = pribul_levo - dobavka
                 # index_same = same / steps
                 # index_lev = levo / steps
                 # index_prv = pravo / steps
-            if ((old_key == 13) or (old_key == 14) or (old_key == 15) or (old_key == 16) or (old_key == 17) or (
-                old_key == 18) or (old_key == 19) or (old_key == 20) or (old_key == 21) or (old_key == 22) or (
-                old_key == 23) or (old_key == 24)) \
-                    and ((key1 == 1) or (key1 == 2) or (key1 == 3) or (key1 == 4) or (key1 == 5) or (key1 == 6) or (
-                        key1 == 7) or (key1 == 8) or (key1 == 9) or (key1 == 10) or (key1 == 11) or (key1 == 12)):
+            if ((old_key == 2) or (old_key == 5) or (old_key == 8) or (old_key == 11) or (old_key == 14) or (old_key == 17) or (old_key == 20) or (old_key == 23) or (old_key == 26) or (old_key == 29) or (old_key == 32) or (old_key == 35)) \
+                    and ((key1 == 1) or (key1 == 4) or (key1 == 7) or (key1 == 10) or (key1 == 13) or (key1 == 16) or (key1 == 19) or (key1 == 22) or (key1 == 25) or (key1 == 28) or (key1 == 31) or (key1 == 34)):
                 levo = levo + 1
-                # propusk_lev = 0
-                propusk_lev = propusk_lev + 2
+                propusk_lev = 0
                 propusk_sam = propusk_sam - 1
                 propusk_prv = propusk_prv - 1
+                pribul_povtora = pribul_povtora - dobavka
+                pribul_pravo = pribul_pravo - dobavka
+                pribul_levo = pribul_levo + dobavka * 2
                 # index_same = same / steps
                 # index_lev = levo / steps
                 # index_prv = pravo / steps
 
-            if ((old_key == 25) or (old_key == 26) or (old_key == 27) or (old_key == 28) or (old_key == 29) or (
-                old_key == 30) or (old_key == 31) or (old_key == 32) or (old_key == 33) or (old_key == 34) or (
-                old_key == 35) or (old_key == 36)) \
-                    and ((key1 == 25) or (key1 == 26) or (key1 == 27) or (key1 == 28) or (key1 == 29) or (
-                        key1 == 30) or (key1 == 31) or (key1 == 32) or (key1 == 33) or (key1 == 34) or (key1 == 35) or (
-                        key1 == 36)):
+            if ((old_key == 3) or (old_key == 6) or (old_key == 9) or (old_key == 12) or (old_key == 15) or (old_key == 18) or (old_key == 21) or (old_key == 24) or (old_key == 27) or (old_key == 30) or (old_key == 33) or (old_key == 36)) \
+                    and ((key1 == 3) or (key1 == 6) or (key1 == 9) or (key1 == 12) or (key1 == 15) or (key1 == 18) or (key1 == 21) or (key1 == 24) or (key1 == 27) or (key1 == 30) or (key1 == 33) or (key1 == 36)):
                 same = same + 1
-                # propusk_sam = 0
-                propusk_sam = propusk_sam + 2
+                propusk_sam = 0
                 propusk_lev = propusk_lev - 1
                 propusk_prv = propusk_prv - 1
+                pribul_povtora = pribul_povtora + dobavka * 2
+                pribul_pravo = pribul_pravo - dobavka
+                pribul_levo = pribul_levo - dobavka
+                if pribul_povtora<0:
+                  dobavka = dobavka + 1
+                else:
+                    dobavka = 1
                 # index_same = same / steps
                 # index_lev = levo / steps
                 # index_prv = pravo / steps
-            if ((old_key == 25) or (old_key == 26) or (old_key == 27) or (old_key == 28) or (old_key == 29) or (
-                old_key == 30) or (old_key == 31) or (old_key == 32) or (old_key == 33) or (old_key == 34) or (
-                old_key == 35) or (old_key == 36)) \
-                    and ((key1 == 1) or (key1 == 2) or (key1 == 3) or (key1 == 4) or (key1 == 5) or (key1 == 6) or (
-                        key1 == 7) or (key1 == 8) or (key1 == 9) or (key1 == 10) or (key1 == 11) or (key1 == 12)):
+            if ((old_key == 3) or (old_key == 6) or (old_key == 9) or (old_key == 12) or (old_key == 15) or (old_key == 18) or (old_key == 21) or (old_key == 24) or (old_key == 27) or (old_key == 30) or (old_key == 33) or (old_key == 36)) \
+                    and ((key1 == 1) or (key1 == 4) or (key1 == 7) or (key1 == 10) or (key1 == 13) or (key1 == 16) or (key1 == 19) or (key1 == 22) or (key1 == 25) or (key1 == 28) or (key1 == 31) or (key1 == 34)):
                 pravo = pravo + 1
-                # propusk_prv = 0
-                propusk_prv = propusk_prv + 2
+                propusk_prv = 0
                 propusk_sam = propusk_sam - 1
                 propusk_lev = propusk_lev - 1
-
+                pribul_povtora = pribul_povtora - dobavka
+                pribul_pravo = pribul_pravo + dobavka * 2
+                pribul_levo = pribul_levo - dobavka
                 # index_same = same / steps
                 # index_lev = levo / steps
                 # index_prv = pravo / steps
-            if ((old_key == 25) or (old_key == 26) or (old_key == 27) or (old_key == 28) or (old_key == 29) or (
-                old_key == 30) or (old_key == 31) or (old_key == 32) or (old_key == 33) or (old_key == 34) or (
-                old_key == 35) or (old_key == 36)) \
-                    and ((key1 == 13) or (key1 == 14) or (key1 == 15) or (key1 == 16) or (key1 == 17) or (
-                        key1 == 18) or (key1 == 19) or (key1 == 20) or (key1 == 21) or (key1 == 22) or (key1 == 23) or (
-                        key1 == 24)):
+            if ((old_key == 3) or (old_key == 6) or (old_key == 9) or (old_key == 12) or (old_key == 15) or (old_key == 18) or (old_key == 21) or (old_key == 24) or (old_key == 27) or (old_key == 30) or (old_key == 33) or (old_key == 36)) \
+                    and ((key1 == 2) or (key1 == 5) or (key1 == 8) or (key1 == 11) or (key1 == 14) or (key1 == 17) or (key1 == 20) or (key1 == 23) or (key1 == 26) or (key1 == 29) or (key1 == 32) or (key1 == 35)):
                 levo = levo + 1
-                # propusk_lev = 0
-                propusk_lev = propusk_lev + 2
+                propusk_lev = 0
                 propusk_sam = propusk_sam - 1
                 propusk_prv = propusk_prv - 1
+                pribul_povtora = pribul_povtora - dobavka
+                pribul_pravo = pribul_pravo - dobavka
+                pribul_levo = pribul_levo + dobavka * 2
                 # index_same = same / steps
                 # index_lev = levo / steps
                 # index_prv = pravo / steps
-                #################################################################################################################
+  #################################################################################################################
 
-            if ((old_key == 1) or (old_key == 2) or (old_key == 3) or (old_key == 4) or (old_key == 5) or (
-                old_key == 6) or (old_key == 7) or (old_key == 8) or (old_key == 9) or (old_key == 10) or (
-                old_key == 11) or (old_key == 12)) \
+            if ((old_key == 1) or (old_key == 4) or (old_key == 7) or (old_key == 10) or (old_key == 13) or (old_key == 16)or (old_key == 19)or (old_key == 22)or (old_key == 25)or (old_key == 28) or (old_key == 31) or (old_key == 34))\
+                    and (key1 == 0):
+                nolik = nolik+1
+                propusk_sam = propusk_sam - 1
+                propusk_lev = propusk_lev - 1
+                propusk_prv = propusk_prv - 1
+                # pribul_povtora = pribul_povtora - dobavka
+                # pribul_pravo = pribul_pravo - dobavka
+                # pribul_levo = pribul_levo - dobavka
+
+            if ((old_key == 2) or (old_key == 5) or (old_key == 8) or (old_key == 11) or (old_key == 14) or (old_key == 17) or (old_key == 20) or (old_key == 23) or (old_key == 26) or (old_key == 29) or (old_key == 32) or (old_key == 35)) \
                     and (key1 == 0):
                 nolik = nolik + 1
-                propusk_sam = propusk_sam + 1
-                propusk_lev = propusk_lev + 1
-                propusk_prv = propusk_prv + 1
-            if ((old_key == 13) or (old_key == 14) or (old_key == 15) or (old_key == 16) or (old_key == 17) or (
-                old_key == 18) or (old_key == 19) or (old_key == 20) or (old_key == 21) or (old_key == 22) or (
-                old_key == 23) or (old_key == 24)) \
+                propusk_sam = propusk_sam - 1
+                propusk_lev = propusk_lev - 1
+                propusk_prv = propusk_prv - 1
+                # pribul_povtora = pribul_povtora - dobavka
+                # pribul_pravo = pribul_pravo - dobavka
+                # pribul_levo = pribul_levo - dobavka
+
+            if ((old_key == 3) or (old_key == 6) or (old_key == 9) or (old_key == 12) or (old_key == 15) or (old_key == 18) or (old_key == 21) or (old_key == 24) or (old_key == 27) or (old_key == 30) or (old_key == 33) or (old_key == 36)) \
                     and (key1 == 0):
                 nolik = nolik + 1
-                propusk_sam = propusk_sam + 1
-                propusk_lev = propusk_lev + 1
-                propusk_prv = propusk_prv + 1
-            if ((old_key == 25) or (old_key == 26) or (old_key == 27) or (old_key == 28) or (old_key == 29) or (
-                old_key == 30) or (old_key == 31) or (old_key == 32) or (old_key == 33) or (old_key == 34) or (
-                old_key == 35) or (old_key == 36)) \
-                    and (key1 == 0):
-                nolik = nolik + 1
-                propusk_sam = propusk_sam + 1
-                propusk_lev = propusk_lev + 1
-                propusk_prv = propusk_prv + 1
+                propusk_sam = propusk_sam - 1
+                propusk_lev = propusk_lev - 1
+                propusk_prv = propusk_prv - 1
+                # pribul_povtora = pribul_povtora - dobavka
+                # pribul_pravo = pribul_pravo - dobavka
+                # pribul_levo = pribul_levo - dobavka
+
             if (old_key == 0) and (key1 == 0):
-                dub_nolik = dub_nolik + 1
-                propusk_sam = propusk_sam + 1
-                propusk_lev = propusk_lev + 1
-                propusk_prv = propusk_prv + 1
+                dub_nolik = dub_nolik+1
+                propusk_sam = propusk_sam - 1
+                propusk_lev = propusk_lev - 1
+                propusk_prv = propusk_prv - 1
+                # pribul_povtora = pribul_povtora - dobavka
+                # pribul_pravo = pribul_pravo - dobavka
+                # pribul_levo = pribul_levo - dobavka
+
+            if (propusk_sam == 0) and (old_propusk_sam < 0):
+                same_list_interv.append(int(math.fabs(old_propusk_sam)))
+
+            if old_key == key1:
+                schet_propuskov_list.append(schet_propuskov)
+                schet_propuskov = 0
+            else:
+                schet_propuskov = schet_propuskov+1
+        schetchik_cikla = schetchik_cikla +1
+        old_propusk_sam = propusk_sam
+
+        old_propusk_lev = propusk_lev
+
+        old_propusk_prv = propusk_prv
         # print(steps,'old:',old_key, ' key:',key1, '--- sam: ', same, ' lev: ', levo, ' prv: ', pravo, ' nol: ', nolik)
         old_key = key1
-        print(steps, ' sam_summa ', propusk_sam, ' lev_summa ', propusk_lev, ' prv_summa ', propusk_prv)
-        if propusk_prv < -20:
-            konec = True
-        if not konec:
-            propusk_prv2 = propusk_prv
+        print(steps,' sam_net ',propusk_sam ,' lev_net ', propusk_lev,' prv_net ',propusk_prv  )
     print('111111111111111111111111111111111111111111111111111111111111111111111111111111111')
 
     same_list.append(same)
     lev_list.append(levo)
     prav_list.append(pravo)
     print(naime_file)
-    pribul = pribul+ propusk_prv2
+
 print('---------------------------------------')
 # same_list.sort()
 # lev_list.sort()
@@ -765,7 +1001,25 @@ print('same: ', same)
 print('levo: ', levo)
 print('pravo: ', pravo)
 print('nolik: ', nolik)
-print('dub_nolik: ', dub_nolik)
-print('pribul same: ', pribul)
+print('dub_nolik: ',dub_nolik )
+print('chastota nolika: ',round((same+levo+pravo+nolik+dub_nolik)/(nolik+dub_nolik),3))
+print('pribul_povtora: ',pribul_povtora, ' pribul_pravo: ',pribul_pravo, ' pribul_levo:' ,pribul_levo)
+print('same_list_interv: ', same_list_interv)
+povtoru = get_counts(same_list_interv)
+dbl = get_counts(schet_propuskov_list)
+print('povtoru:',povtoru )
+print('dbl:', dbl )
+sorted_povtoru = sorted(povtoru.items(), key=lambda x: x[1], reverse=True)
+sorted_dbl = sorted(dbl.items(), key=lambda x: x[0], reverse=True)
+print('sorted_povtoru: ',sorted_povtoru )
+print('sorted_dbl: ',sorted_dbl )
+ciklo = get_counts(list_intrevalov_cikla)
+sorted_ciklo = sorted(ciklo.items(), key=lambda x: x[0], reverse=True)
+print('sorted_ciklo: ',sorted_ciklo )
+print('pribul:',podchet_balansa2(schet_propuskov_list) )# sorted_povtoru = sorted(povtoru.items(), key=operator.itemgetter(0), reverse=True)
+print('list_intrevalov_cikla',list_intrevalov_cikla )
+
+print('sorted_ciklo: ',sorted_ciklo )
+print('global shagi:',globaln_shagi )
 # print('pribyl2: ', pribyl2)
 # print('real_pribyl_all: ', real_pribyl)
